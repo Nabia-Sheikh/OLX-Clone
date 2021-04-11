@@ -1,0 +1,534 @@
+body{
+    margin: 0px;
+    width: 100%;
+    font-family: Roboto,
+    Arial,
+    Helvetica,
+    sans-serif
+;
+
+}
+nav {
+    background-color: rgb(247, 248, 249);
+}
+.header1{
+    position: fixed;
+    margin: -90px 0px 0px 0px;
+    width: 100%;
+    z-index: 111;
+    box-shadow: 0px -1px 4px 2px #bebebe;
+    padding-bottom: 10px;
+}
+nav img{
+    margin-top: 20px;
+    margin-left: 113px;
+}
+nav form{
+    vertical-align: top;
+     margin: 15px 0px 0px 54px;
+    display: inline-block;
+}
+
+nav form input,select{
+
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+nav form select{
+    width: 272px;
+    padding: 14px;
+    height: 54px;
+      margin: -12px 16px 0px -36px;
+}
+
+nav form input{
+    width: 684px;
+    padding: 14px;
+    height: 22px;
+}
+nav form input:focus{
+    border: 3px solid aquamarine;
+}
+
+nav form a{
+    color: black;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+nav form button{
+padding: 13px;
+border: 2px solid black;
+margin-left: 17px;
+border-radius: 40px;
+width: 111px;
+background-color: white;
+}
+
+        .secondnav{
+            background-color: white;
+            /* margin-left: 100px; */
+                margin-top: 60px;
+                padding-top: 1px;
+                width: 100%;
+        }
+        .secondnav:hover{
+            cursor: pointer;
+        }
+
+        .secondnav li{
+            display: inline;
+            padding-left: 20px;
+        }
+        .secondnav li:hover{
+            color: rgb(83, 128, 158);
+        }
+
+.bg-hero{
+width: 100%;
+}
+.components {
+    /* border: 2px solid black; */
+    margin: 193px auto 0px auto;
+    width: 80%;
+    /* height: 600px; */
+}
+
+.box1{
+    /* margin-top: 0px; */
+    background-color: rgb(235, 238, 239);
+    border-radius: 10px;
+   
+}
+.headingContent{
+    padding-top: 16px;
+    padding-left: 30px;
+}
+
+.box1Heading{
+    margin-left: 30px;
+    text-align: start;
+ display: inline;
+     font-weight: normal; 
+}
+
+.box1Anchor{
+    float: right;
+    margin: -51px 39px 0px 0px;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+}
+.borderLeft{
+    border-left: 5px solid rgb(255, 206, 50);
+    padding-left: 20px;
+}
+  .gallery h3 {
+       text-align: left;
+       font-size: 20px;
+       margin: 0;
+       padding-top: 10px;
+   }
+
+  .gallery a {
+       text-decoration: none;
+   }
+
+   .gallery {
+       display: flex;
+       flex-wrap: wrap;
+       width: 100%;
+       justify-content: center;
+       align-items: center;
+       margin: 15px 0;
+       padding-bottom: 20px;
+   }
+
+   .content {
+       width: 22%;
+       margin: 15px;
+       box-sizing: border-box;
+       float: left;
+       text-align: center;
+       border-radius: 10px;
+       border-top-right-radius: 10px;
+       border-bottom-right-radius: 10px;
+       padding-top: 10px;
+       background-color: white;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   }
+
+   /* .heartIcon{
+       position: relative;
+       display: inline-block;
+       float: right;
+       top: auto;
+   } */
+
+   .heartImgP{
+       width: 10px;
+       height: 10px;
+   }
+   .blue{
+       padding: 10px;
+       text-align: center;
+       background-color: royalblue;
+       white-space: wrap !important;
+       text-overflow: ellipsis;
+       color: white;
+   }
+   .blue button{
+       border: 2px solid white;
+        border-radius: 5px;
+       padding: 10px;
+       font-weight: bolder;
+       color: white;
+       background: none;
+       width: 95%;
+   }
+   .blueCenter{
+       text-align: center !important;
+       color: white !important;
+       padding-bottom: 70px;
+
+   }
+   .content:hover {
+       box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+       transform: translate(0px, -8px);
+       transition: .9s;
+   }
+
+ .gallery img {
+       width: 60%;
+       height: 200px;
+       text-align: center;
+       margin: 0 auto;
+       display: block;
+   }
+
+ .gallery  p {
+       text-align: left;
+       color: rgb(134, 143, 140);
+       font-size: 14px;
+       white-space: nowrap; 
+        overflow: hidden; 
+      text-overflow: clip; 
+       margin-top: 0px;
+   }
+   
+   .first{
+       font-size: 11px !important;
+       text-transform: uppercase;
+       text-align: left  !important;
+       display: inline-block;
+       float: left;
+   }
+   .last{
+       font-size: 11px !important;
+       text-align-last: right;
+       padding-right: 15px;
+   }
+
+  .gallery h6 {
+       font-size: 26px;
+       text-align: left;
+       color: #222f3e;
+       margin: 0;
+   }
+
+/* Make the tag position relative to the figure */
+.figure.tag {
+    position: relative; 
+    margin-left: 20px;
+}
+
+/* set the base styles all tags should use */
+.figure.tag::before {
+    position: absolute;
+    display: block;
+    color: white;
+    padding: 0.1rem 0.5rem;
+    font-weight: normal;
+}
+
+/* Specific variations for different tags */
+.figure.tag-featured::before {
+    content: "Featured";
+    background: orange;
+}
+   @media(max-width: 1000px) {
+       .content {
+           width: 46%;
+       }
+   }
+
+   @media(max-width: 750px) {
+       .content {
+           width: 100%;
+       }
+   }
+
+   .beforeFooter{
+       background-color: rgb(247, 248, 249);
+       border-bottom: 3px solid rgb(216, 222, 224);
+   }
+
+   .rightBorder{
+       all: unset;
+       border-right: 2px solid rgb(216, 222, 224);
+       display: inline-block;
+       vertical-align: top;
+       margin: 23px 0px 0px 56px;
+       padding-right: 60px;
+   }
+
+   .footerImg1{
+       margin-left: 140px;
+   }
+
+   .innerLeft{
+       display: inline-block;
+       vertical-align: top;
+       margin: 30px 0px 0px 30px;
+   }
+
+   .innerLeft h5{
+      margin-bottom: 8px;
+   }
+   footer{
+       background-color: whitesmoke;
+   }
+footer ul{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 60px;
+}
+strong{
+    color: black;
+    font-size: 14px;
+}
+   footer li{
+       font-size: 12px;
+       line-height: 28px;
+       color: rgb(59, 59, 59);
+    list-style-type: none;  
+ }
+
+ .footerPart1{
+     display: inline-block;
+     margin-left: 128px;
+ }
+ .footerPart2{
+     
+     display: inline-block;
+     vertical-align: top;
+     margin-left: 70px;
+ }
+
+ .logos img
+ {
+     margin-bottom: 14px;
+     width: 30px;
+
+ }
+
+
+ @media screen and (max-width: 767px) {
+.beforeFooter{
+    display: none;
+}
+
+
+    footer{
+        display: none;
+    }
+
+    .mobileLogos{
+        position: relative;
+        float: right;
+        top: -40px;
+    }
+    .mobileLogos img{
+        width: 1.5em;
+        margin-top: 6px;
+    }
+
+    .mobileFooter{
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+        width: 50%;
+        margin: auto;
+    }
+
+    .mobileCopyright , strong{
+        color: white;
+        padding: 1px;
+        background-color:rgb(0, 47, 52);
+        text-align: center;
+        width: 100%;
+    }
+
+    
+.vertical-menu {
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.411);
+    /* Set a width if you like */
+}
+
+.vertical-menu a {
+    background-color: white;
+    /* Grey background color */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.411);
+    color: black;
+    /* Black text color */
+    display: block;
+    /* Make the links appear below each other */
+    padding: 12px;
+    /* Add some padding */
+    text-decoration: none;
+    /* Remove underline from links */
+}
+.vertical-menu .greater::after{
+    /* content: url('IMG/greatr.png'); */
+    content: '>';
+    font-size: 1.9em;
+    margin-top: -7px;
+    float: right;
+}
+.vertical-menu a:hover {
+    background-color: rgb(185, 185, 185);
+    /* Dark grey background on mouse-over */
+}
+
+
+
+
+     .secondnav{
+         display: none;
+     }
+
+     .bg-hero{
+         width: 100%;
+         margin-top: 52px;
+     }
+
+     .components{
+         margin: 0px auto 0px auto;
+     }
+     .box1Anchor{
+         display: none;
+     }
+     .headingContent{
+    text-align: center;
+    font-size: 0.8em;
+    padding: 1px 0px 0px 0px;
+     }
+
+     .copyright{
+         display: none;
+     }
+
+ }
+
+ @media screen and (min-width: 768px) {
+    .vertical-menu{
+        display: none;
+    }
+
+    /* Dropdown Button */
+    .dropbtn {
+        /* background-color: #4CAF50; */
+        color: black;
+        background-color: transparent;
+        font-weight: bold;
+        margin-left: 84px;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropD {
+        /* position: relative; */
+        display: inline;
+    }
+
+    .dropbtn::after{
+        position: relative;
+        content: url(IMG/down.svg);
+        top: 7px;
+        left: 7px;
+      
+    }
+
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #ffffff;
+        width: 90%;
+        height: auto;
+margin: 75px 15px 29px -214px;
+        /* min-width: 160px; */
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content ul {
+        padding: 25px 82px 0px 66px;
+        ;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        /* display: inline; */
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+
+    /* Show the dropdown menu on hover */
+    .dropD:hover .dropdown-content {
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+
+    .dropdown-content li {
+        display: block;
+    }
+
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+
+    .copyright strong{
+        color: white;
+        margin-left: 220px;
+    }
+    .mobileCopyright,
+    .mobileFooter {
+        display: none;
+    }
+    .copyright a{
+        
+        color: white;
+        text-decoration: none;
+    }
+    .copyright span{
+        float: right;
+        margin-right: 140px ;
+    }
+    .copyright{
+       padding: 15px;
+        color: white;
+        text-decoration: none;
+        font-size: 12px;
+        background-color: rgb(0, 47, 52);
+    }
+ }
